@@ -18,7 +18,7 @@ app.get("*", (req, res) => {
 	res.sendFile(path.join(__dirname, "client/build/index.html"));
 });
 
-// initialize store
+// initialize store check
 const musician = new Musician(store);
 musician.initStore(initialStoreData);
 app.locals.musician = musician;
