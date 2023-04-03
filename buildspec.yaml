@@ -21,6 +21,3 @@ artifacts:
     - package.json
     - appspec.yml
     - scripts/**/*
-  base-directory: base_dir
-  name: 429365973530
-  discard-paths: no
