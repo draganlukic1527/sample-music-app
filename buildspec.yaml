@@ -22,5 +22,5 @@ artifacts:
     - appspec.yml
     - scripts/**/*
   base-directory: base_dir
-  name: BuildArtifact
+  name: 429365973530
   discard-paths: no
