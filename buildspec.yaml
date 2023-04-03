@@ -15,10 +15,10 @@ phases:
       - echo Build completed on `date`
 # Include only the files required for your application to run.
 artifacts:
-  enable-symlinks: yes
   files:
     - public/**/*
     - client/src/**/*
     - package.json
     - appspec.yml
     - scripts/**/*
+  discard-paths: yes
